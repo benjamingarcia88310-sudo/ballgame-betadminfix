@@ -1,0 +1,58 @@
+.ant-input-group .ant-input-group-addon {
+  border: none !important;
+  background: transparent !important;
+  min-width: 150px !important;
+  max-width: 150px !important;
+  text-align: start;
+}
+
+.ant-input-group input {
+  border-radius: 6px !important;
+}
+
+.ant-input-group .ant-input-group-addon button {
+  border: none !important;
+  background: transparent !important;
+}
+
+.ant-modal {
+  width: 800px !important;
+  max-width: 800px !important;
+  min-width: 800px !important;
+}
+
+.ant-modal-header {
+  margin-bottom: 20px !important;
+}
+
+.ant-modal-footer {
+  margin-top: 20px !important;
+}
+
+.ant-collapse-header {
+  background: transparent !important;
+  align-items: center !important;
+  color: var(--text-primary-color) !important;
+}
+
+table .ant-table-thead tr th {
+  background: var(--panel-gradient-alt) !important;
+  border-radius: unset !important;
+  text-align: center !important;
+  color: var(--white-color) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  font-weight: 600 !important;
+}
+
+table thead > tr > th::before {
+  display: none;
+}
+
+table tbody > tr > td:has(> .no-padding) {
+  padding: 1px !important;
+}
+
+.ant-layout-header {
+  min-height: 64px !important;
+  height: auto !important;
+}

@@ -1,0 +1,21 @@
+export const apiLink = {
+  login: "admin/auth",
+  get_captcha: 'admin/auth/captcha',
+  forgot_password: "admin/auth/forgot-password",
+  reset_password: "admin/auth/reset-password",
+  member_list: 'admin/member/list',
+  get_member_list: "admin/member/list",
+  game_setting: 'admin/partner/setting',
+  site_setting: 'admin/site-setting',
+  game_partner: 'admin/partner',
+  get_game_partner: 'admin/partner/list',
+  delete_partner: "admin/partner",
+  register_user: 'admin/partner/register-user',
+  send_partner_message: "admin/partner/message",
+  cash_increase: "admin/partner/cash-increase",
+  get_login_information: "admin/member/login",
+  block_ip: 'admin/member/block-ip',
+  get_game_management: "admin/game",
+  get_current_loggedin_user: "admin/member/current-login",
+  logout_user: 'admin/member/logout'
+};
