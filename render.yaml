@@ -7,4 +7,9 @@ services:
     envVars:
       - key: NODE_ENV
         value: production
+    # Redirects for SPA routing (if using static site, uncomment below and use static site type)
+    # redirects:
+    #   - source: /*
+    #     destination: /index.html
+    #     action: rewrite
 

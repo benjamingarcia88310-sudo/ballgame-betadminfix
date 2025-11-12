@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <link rel="icon" href="/favicon.png" />
+    <title>Betting Customer</title>
+    <script>
+      // Redirect to index.html to let Vue Router handle the route
+      var path = window.location.pathname;
+      window.location.replace('/index.html' + path + window.location.search + window.location.hash);
+    </script>
+  </head>
+  <body style="width: 100%">
+    <div id="app"></div>
+    <script>
+      // Fallback redirect
+      setTimeout(function() {
+        window.location.href = '/index.html';
+      }, 100);
+    </script>
+  </body>
+</html>
+
